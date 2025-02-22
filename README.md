@@ -5,7 +5,7 @@ Made in Python 3.9.6 using the PIL library.
 
 Typerwriter is a program I created while experimenting with pixel art. I was running in to an issue where traditional fonts were too difficult to control.
 Many common system fonts are created by rendering the characters as vectors - as such, these fonts don't translate well to pixel-based editors, such as Paint.net.
-Therefore, I created Typer, in order to be able to consistently render the smallest text possible in pixel art.
+Therefore, I created Typewriter, in order to be able to consistently render the smallest text possible in pixel art.
 
 This program takes in strings from a text file, and outputs them as image files, where the text is rendered in the smallest legible text I could achieve. 
 Every character is a MAXIMUM of 5 pixels tall - PERFECT for granular pixel art.
